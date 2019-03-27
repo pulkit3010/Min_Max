@@ -26,6 +26,7 @@ Scanner scanner = new Scanner(System.in);
             }scanner.nextLine();
         }scanner.close();
         System.out.println("\nThe largest number you entered is \n"+Collections.max(ints));
+        System.out.println("\nThe smallest number you entered is \n"+Collections.min(ints));
 
 
     }}
